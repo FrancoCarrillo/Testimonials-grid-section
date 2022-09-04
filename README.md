@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/FrancoCarrillo/Fylo-Landing-Page)
-- Live Site URL: [Add live site URL here](https://francocarrillo.github.io/Testimonials-grid-section/)
+- Solution URL: (https://github.com/FrancoCarrillo/Fylo-Landing-Page)
+- Live Site URL: (https://francocarrillo.github.io/Testimonials-grid-section/)
 
 ## My process
 
