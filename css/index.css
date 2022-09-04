@@ -1,3 +1,116 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+@media screen and (max-width: 375px) {
+  .card {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px 25px;
+    box-shadow: 1px 1px 10px 2px #dddddd;
+  }
+  .card .card-head {
+    display: flex;
+  }
+  .card .card-head .avatar img {
+    border-radius: 30px;
+    height: 50px;
+  }
+  .card .card-head .avatar-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .card .card-head .avatar-info .name {
+    margin: 0;
+  }
+  .card .card-head .avatar-info .status {
+    margin: 0;
+  }
+  .card .title p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card .quote p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .violet {
+    background-color: hsl(263deg, 55%, 52%);
+  }
+  .violet .card-head .avatar img {
+    border: 3px hsl(263deg, 98%, 69%) solid;
+  }
+  .violet .card-head .avatar-info .name {
+    color: hsl(0deg, 0%, 100%);
+  }
+  .violet .card-head .avatar-info .status {
+    color: hsl(263deg, 98%, 69%);
+  }
+  .violet .title p {
+    color: hsl(0deg, 0%, 100%);
+  }
+  .violet .quote p {
+    color: hsl(263deg, 98%, 69%);
+  }
+  .semi-dark-gray {
+    background-color: hsl(217deg, 19%, 35%);
+  }
+  .semi-dark-gray .card-head .avatar img {
+    border: 3px hsl(0deg, 0%, 100%) solid;
+  }
+  .semi-dark-gray .card-head .avatar-info .name {
+    color: hsl(0deg, 0%, 100%);
+  }
+  .semi-dark-gray .card-head .avatar-info .status {
+    color: hsl(0deg, 0%, 81%);
+  }
+  .semi-dark-gray .title p {
+    color: hsl(0deg, 0%, 100%);
+  }
+  .semi-dark-gray .quote p {
+    color: hsl(0deg, 0%, 81%);
+  }
+  .dark-gray {
+    background-color: hsl(219deg, 29%, 14%);
+  }
+  .dark-gray .card-head .avatar img {
+    border: 3px hsl(0deg, 0%, 100%) solid;
+  }
+  .dark-gray .card-head .avatar-info .name {
+    color: hsl(0deg, 0%, 100%);
+  }
+  .dark-gray .card-head .avatar-info .status {
+    color: hsl(217deg, 19%, 35%);
+  }
+  .dark-gray .title p {
+    color: hsl(0deg, 0%, 100%);
+  }
+  .dark-gray .quote p {
+    color: hsl(217deg, 19%, 35%);
+  }
+  .white {
+    background-color: hsl(0deg, 0%, 100%);
+  }
+  .white .card-head .avatar img {
+    border: 3px hsl(0deg, 0%, 100%) solid;
+  }
+  .white .card-head .avatar-info .name {
+    color: hsl(217deg, 19%, 35%);
+  }
+  .white .card-head .avatar-info .status {
+    color: hsl(0deg, 0%, 81%);
+  }
+  .white .title p {
+    color: hsl(217deg, 19%, 35%);
+  }
+  .white .quote p {
+    color: hsl(0deg, 0%, 81%);
+    font-weight: 700;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
 
 /*# sourceMappingURL=index.css.map */
